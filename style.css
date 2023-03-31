@@ -1,0 +1,202 @@
+* {
+    margin: 5px;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace, Courier, monospace;
+    /* border: 2px solid red; */
+}
+
+/* GENERAL STYLE */
+
+body {
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.sections {
+    background-color:rgba(245, 245, 220, 0.709);
+    padding: 20px;
+    margin: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.sections h2 {
+    color: #1B3819;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+a:hover {
+    transition: all 250ms ease-in-out;
+    color: #1B3819;
+    font-weight: 700;
+}
+
+p {
+    text-align: justify;
+}
+
+/* NAVIGATION */
+
+header {
+    background-color: rgba(245, 245, 220, 0.709);
+    position:relative
+}
+
+nav ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-transform: lowercase;
+}
+
+/* HEADING */
+
+h1, h2 {
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.headings h2 {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.headings img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.headings p {
+    text-align: center;
+    font-style: italic;
+}
+
+/* BIOGRAPHY */
+
+.biography p {
+    margin-bottom: 30px;
+}
+
+.biography img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.biography img + p {
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.biography p + p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* INTERESTING */
+
+.interesting > p {
+    text-align: center;
+    margin-top: 0;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.interesting h2 {
+    margin-bottom: 10px;
+}
+
+.interesting > img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.interesting > ul {
+    list-style-type:none
+}
+
+/* BFFS */
+
+.bffs img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.bffs h3 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.bffs h2 {
+    margin-bottom: 0px;
+}
+
+/* NOGODNO */
+
+.nogodno img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.nogodno h3 {
+        text-align: center;
+        padding-top: 30px;
+}
+
+.nogodno .row {
+display: flex;
+justify-content:space-evenly;
+}
+
+/* BUTTON */
+
+button {
+    background-color: #1B3819;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+button:hover {
+    background-color: aliceblue;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 30px;
+}
+footer {
+    text-align: center;
+    color: white;
+}
+
+footer > p {
+    text-align: center;
+    color: white;
+}
